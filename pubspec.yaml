@@ -4,7 +4,7 @@ version: 1.6.5
 repository: https://github.com/KevinVan720/morphable_shape
 
 environment:
-  sdk: ">=2.13.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=2.10.0"
 
 dependencies:
@@ -13,7 +13,10 @@ dependencies:
 
   flutter_class_parser: ^0.2.4
   dimension: ^0.1.6
-  animated_box_decoration: 0.0.6
+  animated_box_decoration:
+    git:
+      url: https://github.com/antonzk/animated_box_decoration.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
